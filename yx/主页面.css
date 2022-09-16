@@ -1,0 +1,141 @@
+html{
+    background-color:rgba(142, 141, 141, 0.379);
+    font-size: large;
+    font-family: 'open Sans',sans-serif;
+}
+
+
+body{
+  width: 800px;
+  margin: 0 auto;
+  background-color:rgba(255, 255, 255, 0.521);
+  padding: 0 20px 20px 20px;       /*页边距*/
+  border: 0.5px solid black; 
+}
+header {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align:center;
+    padding: 20px;
+    background-color: white;
+}
+*{margin: 0;padding:0;}
+
+.top_logo{
+        width: 200px;
+        height: 150px;
+        margin: 0px auto;
+        border: 0px dashed #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.top_logo img{
+    width: 200px;
+    height: 150px;
+}
+ul {
+    list-style: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  ul {
+  /*因为是10张照片，所以ul的宽是2000px*/
+    width: 2000px;
+    animation: move 15s infinite linear;
+  }
+
+  .box {
+  /*超出盒子的部分，隐藏*/
+    overflow: hidden;
+    width: 600px;
+    height: 130px;
+    border: 0px solid #000;
+    margin: 10px auto;
+  }
+
+  .box li {
+    float: left;
+  }
+
+  @keyframes move {
+    to {
+    /*7张图片正好全部走出盒子，留出来的空白部分，由后面那三张图片当替身补上*/
+      transform: translateX(-1400px);
+    }
+  }
+
+  .box ul:hover {
+  /*鼠标经过li后，动画暂停*/
+    animation-play-state: paused;
+  }
+
+h1{
+    font-size: large;
+    font-weight: bolder;
+    text-align:center; 
+    border: 1px solid #000;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+}
+.小logo{ 
+    width: 60px;
+    height: 40px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+p{
+    font-size: large;
+    font-weight: bolder;
+    text-align:center;
+    border: 1px solid #000;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+}
+h2{
+    font-size: large;
+    font-weight: bolder;
+    text-align:center;
+    border: 1px solid rgb(26, 168, 156);
+    margin: 10px auto;
+    padding: 10px;
+    background-color:rgb(26, 168, 156);
+    color: aliceblue;
+}
+.btn{
+    width: 800px;
+    height: 40px;
+    background:rgb(26, 168, 156);
+    border: none;
+    color: white;
+    margin: 10px auto;
+    border-radius: 6px 6px 6px 6px;
+    text-align:center;
+}
+.预约图标{
+  padding-left: 320px;
+  height: 60px;
+  width: 60px;
+  text-align:center;
+}
+.用户图标{
+  padding-left: 50px;
+  height: 60px;
+  width: 60px;
+}

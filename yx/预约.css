@@ -1,0 +1,108 @@
+html{
+    background-color:rgba(142, 141, 141, 0.379);
+    font-size: large;
+    font-family: 'open Sans',sans-serif;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+    background-color:rgba(255, 255, 255, 0.521);
+    padding: 0 20px 20px 20px;       /*页边距*/
+    border: 0.5px solid black; 
+}
+.预约图{
+    width: 800px;
+    margin: 0px auto;
+    border: 0px dashed #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: large;
+    font-weight: bolder;
+    text-align:center; 
+    border: 0px solid #000;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+}
+h2{
+    font-size: large;
+    font-weight:normal;
+    text-align: left;
+    border: 0px solid #000;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+}
+.时间选择{
+    font-size: large;
+    font-weight:normal;
+    border: 0px solid #000;
+    margin: 0px auto;
+    padding-left: 100px;
+    padding-top: 0px;
+    background-color: white;
+ 
+}
+#time1 {
+    width: 600px;
+    height: 40px;
+    font-size: large;
+    font-weight:normal;
+}
+.站点选择{
+    font-size: large;
+    font-weight:normal;
+    border: 0px solid #000;
+    margin: 0px auto;
+    padding-left: 100px;
+    padding-top: 0px;
+    background-color: white;
+ 
+}
+#location{
+    width: 600px;
+    height: 40px;
+    font-size: large;
+    font-weight:normal;
+}
+.站点选择1{
+    font-size: large;
+    font-weight:normal;
+    border: 0px solid #000;
+    margin: 0px auto;
+    padding-left: 100px;
+    padding-top: 10px;
+    background-color: white;
+ 
+}
+#location1{
+    width: 600px;
+    height: 40px;
+    font-size: large;
+    font-weight:normal;
+}
+.button1{
+    width: 800px;
+    height: 40px;
+    background:rgb(26, 168, 156);
+    border: none;
+    color: white;
+    margin: 10px auto;
+    border-radius: 6px 6px 6px 6px;
+    text-align:center;
+    font-size: large;
+}
+.预约图标{
+    padding-left: 320px;
+    height: 60px;
+    width: 60px;
+    text-align:center;
+  }
+  .用户图标{
+    padding-left: 50px;
+    height: 60px;
+    width: 60px;
+  }

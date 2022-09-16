@@ -1,0 +1,23 @@
+html{
+    background-color:rgba(142, 141, 141, 0.379);
+    font-size: large;
+    font-family: 'open Sans',sans-serif;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+    background-color:rgba(255, 255, 255, 0.521);
+    padding: 0 20px 20px 20px;       /*页边距*/
+    border: 0.5px solid black; 
+}
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align:center;
+    padding: 20px;
+}
+h2{
+    font-size: large;
+    font-weight: bolder;
+
+}

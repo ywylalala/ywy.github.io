@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="utf-8"> 
+    <title>逸行</title> 
+    <link rel="stylesheet" href="/Users/yan/Desktop/yx/预约.css">
+    <link rel="shortcut icon" href="/Users/yan/Desktop/yx/image/logo.jpg" type="image/x-icon" sizes="144*144"> 
+</head>
+<body>
+    <img class="预约图" src="/Users/yan/Desktop/yx/image/小程序预约.png">
+    <h1> ——表单模块——</h1>
+    <form action="formnb.asp" method="get">
+    <h2>选择出发时间:<br>
+        <div class="时间选择"><input type="datetime-local" value='time1' id="time1" /></div>
+    </h2>
+    <h2>选择出发站点:<br>
+        <div class="站点选择">
+        <select id="location" >
+            <option>站点0</option>
+            <option>站点1</option>
+            <option>站点2</option>
+            <option>站点3</option>
+            <!--数据库外联表-->
+        </select>
+        </div>
+    </h2>
+    <h2>选择到达站点:<br>
+        <div class="站点选择1">
+        <select id="location1" >
+            <option>站点0</option>
+            <option>站点1</option>
+            <option>站点2</option>
+            <option>站点3</option>
+            <!--数据库外联表-->
+        </select>
+        </div>
+    </h2>
+       
+    <h3><button class="button1" type="submit" value="Submit">马上提交</button>   
+        <button class="button1" type="reset" value="Reset">重置</button>
+    </h3></form>
+    <div>
+        <a href="/Users/yan/Desktop/yx/预约.html" title="预约"><img class="预约图标" src="/Users/yan/Desktop/yx/image/预约.png" ></a>
+        <a href="/Users/yan/Desktop/互联网+/用户界面/用户界面.html" title="我的"><img class="用户图标" src="/Users/yan/Desktop/yx/image/用户.png"></a>
+    </div>
+    <script src="/Users/yan/Desktop/yx/预约.js"></script>
+      
+</body>
